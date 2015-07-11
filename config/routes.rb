@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  mount Dashing::Engine, at: Dashing.config.engine_path
+
+  root 'dashing/dashboards#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
