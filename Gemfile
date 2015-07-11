@@ -43,3 +43,5 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'dashing-rails'
+gem 'puma'
